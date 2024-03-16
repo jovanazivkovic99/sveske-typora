@@ -1,0 +1,30 @@
+alt + enter
+double shift
+state completion - ctrl + shift + enter
+code formating - ctrl + alt + L
+ctrl + B preko klase, metode itd kako bi usli u njihovu definiciju
+
+SHIFT + F6 -> refactor code
+
+https://www.jetbrains.com/idea/guide/tips/duplicate-lines/
+CTRL + D -> dupliranje linije ili ako se selektuje neki deo dupliranje samo njega
+
+https://www.jetbrains.com/idea/guide/tips/find-select-multiple-occurrences/
+ALT + J -> find and select the next occurrence of the word
+Ctrl + Alt + Shift + J -> select all matching words in the document
+F3 -> skip one occurance of that same word
+
+Navigacija kroz projekat:
+CTRL + N -> pretrazivanje klasa
+CTRL + SHIFT + N -> pretrazivanje fajlova
+SHIFT + SHIFT -> pretrazivanje celog projekta
+
+ALT + 1 -> da prebacimo fokus na fajlove projekta
+ESC -> kad hocemo da vratimo fokus nazad u kod
+
+ALT + F1 + ENTER onda Project View -> kad hocemo da vidimo gde nam se nalazi neka klasa, metoda itd
+ALT + left/right -> prolazak kroz otvorene tabove
+
+Live Templates:
+imePromenljive.nn -> za proveru da li NIJE null promenljiva
+imePromenljive.null -> za proveru da li je null promenljiva
