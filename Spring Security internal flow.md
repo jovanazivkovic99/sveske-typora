@@ -319,20 +319,3 @@ Method `withDefaultPasswordEncoder` is marked as depricated, ONLY beacuse it is 
         return NoOpPasswordEncoder.getInstance();
     }
 ```
-
-1. Da li je bitno da znaju da li je porudzbina u proizvodnji - tj da je makar jedan proizvod trenutno u proizvodnji?
-2. Da li zele da im se na jednoj strani prikazuju i ISPORUCENI i GOTOVI proizvodi?
-3. Da li zele da imaju karticu Gotovi proizvodi gdje ce im se nalaziti samo prozvodi sa statusom GOTOVO (zavrsen proces proizvodnje ali nije isporucen), a odvojeno karticu Svi prozvodi gdje ce imati sve prozvode pa da mogu da filtriraju npr.
-4. Da li zele sami, rucno da skidaju sa stanja sirovine ili da napravimo se to desava automatski kada se sirovina iskoristi tj kad proizvod krene u prozivodnju?
-5. Da li zele da se povrsina i obim sirovine racunaju automatski (bez mogucnosti prepraljvanje povrsine) na osnovu duzina i visine? 
-6. Na koliko decimala se zaokruzuje obim i povrsina?
-7. Postoje statusi proizvoda: PROIZVODNJA, ZAVRSENO i ISPORUCENO. Da li zele da imaju mogucnost da menjaju bilo kad u bilo koji status. Npr: ako se klikne status ISPORUCENO da li zele da zabranimo vracanje na neki od prethodnih statusa npr PROIZVODNJA. Ili da mogu da prelaze iz bilo kog u bilo koji status?
-
-1. Da li im je bitno da znaju i imaju informaciju o tome da li je porudzbina u proizvodnji - tj da je makar jedan proizvod trenutno u proizvodnji?
-2. Da li zele da im se na jednoj strani prikazuju i ISPORUCENI i GOTOVI proizvodi?
-3. Da li zele da imaju karticu Gotovi proizvodi gdje ce im se nalaziti samo prozvodi sa statusom GOTOVO (zavrsen proces proizvodnje ali nije isporucen), a odvojeno karticu Svi prozvodi gdje ce imati sve prozvode pa da mogu da filtriraju npr.
-4. Da li zele sami, rucno da skidaju sa stanja sirovine ili da napravimo se to desava automatski kada se sirovina iskoristi tj kad proizvod krene u prozivodnju?
-5. Da li zele da se povrsina i obim sirovine racunaju automatski na osnovu duzine, visine i kolicine? (bez mogucnosti da oni prepravljaju povrsinu i obim)
-6. Na koliko decimala se zaokruzuje obim i povrsina?
-7. Da li moze naknadno da se doda proizvod u porudzbinu ili je to nova porudzbina?
-8. Postoje statusi proizvoda: PROIZVODNJA, ZAVRSENO i ISPORUCENO. Da li zele da imaju mogucnost da menjaju bilo kad u bilo koji status. Npr: ako se klikne status ISPORUCENO da li zele da zabranimo vracanje na neki od prethodnih statusa npr PROIZVODNJA. Ili da mogu da prelaze iz bilo kog u bilo koji status?
